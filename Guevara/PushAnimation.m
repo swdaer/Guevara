@@ -29,7 +29,7 @@
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
 {
-    return 1.8;
+    return 2.0;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext
@@ -86,12 +86,37 @@
 - (void)toVCShow
 {
     _toVC.view.hidden = NO;
-    [UIView animateWithDuration:0.3 animations:^{
-        _toVC.view.alpha = 1;
-    } completion:^(BOOL finished) {
-        [_cellImg removeFromSuperview];
-        [_backGroundView removeFromSuperview];
-    }];
+    _toVC.view.alpha = 1;
+
+    UIBezierPath *originPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake([UIScreen mainScreen].bounds.size.width/2, _cellImg.center.y, 0, 0)];
+    CGPoint extremePoint = CGPointMake(CGRectGetWidth(_fromVC.view.bounds),CGRectGetHeight(_toVC.view.bounds));
+    
+    float radius = sqrtf(extremePoint.x * extremePoint.x + extremePoint.y * extremePoint.y);
+    UIBezierPath *finalPath = [UIBezierPath bezierPathWithOvalInRect:CGRectInset(CGRectMake([UIScreen mainScreen].bounds.size.width/2, 0, 0, 0), -radius, -radius)];
+    
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.path = finalPath.CGPath;
+    _toVC.view.layer.mask = maskLayer;
+    
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"path"];
+    animation.fromValue = (__bridge id _Nullable)(originPath.CGPath);
+    animation.toValue = (__bridge id _Nullable)(finalPath.CGPath);
+    animation.duration = 0.5;
+    animation.delegate = self;
+    [maskLayer addAnimation:animation forKey:@"path"];
+
+//    [UIView animateWithDuration:0.3 animations:^{
+//    } completion:^(BOOL finished) {
+//        [_cellImg removeFromSuperview];
+//        [_backGroundView removeFromSuperview];
+//    }];
+}
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
+    [_cellImg removeFromSuperview];
+    [_backGroundView removeFromSuperview];
+    [self.transitionContext completeTransition:![self.transitionContext transitionWasCancelled]];
+    [self.transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey].view.layer.mask = nil;
 }
 
 @end

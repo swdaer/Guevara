@@ -78,6 +78,7 @@
 - (void)toVCShow
 {
     _toVC.view.hidden = NO;
+    
     [UIView animateWithDuration:0.3 animations:^{
         _toVC.view.alpha = 1;
     } completion:^(BOOL finished) {
