@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7212431D6EE0F60035259C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212421D6EE0F60035259C /* main.m */; };
+		CD7212461D6EE0F60035259C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212451D6EE0F60035259C /* AppDelegate.m */; };
+		CD72124E1D6EE0F60035259C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD72124D1D6EE0F60035259C /* Assets.xcassets */; };
+		CD72125C1D6EE0F60035259C /* GuevaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72125B1D6EE0F60035259C /* GuevaraTests.m */; };
+		CD7212671D6EE0F60035259C /* GuevaraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212661D6EE0F60035259C /* GuevaraUITests.m */; };
+		CD7212771D6EE11F0035259C /* GTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212751D6EE11F0035259C /* GTabbarViewController.m */; };
+		CD7212781D6EE11F0035259C /* GTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7212761D6EE11F0035259C /* GTabbarViewController.xib */; };
+		CD72127B1D6EE5EE0035259C /* MTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72127A1D6EE5EE0035259C /* MTTabBarButton.m */; };
+		CD72127E1D6EE66E0035259C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72127D1D6EE66E0035259C /* UIColor+Hex.m */; };
+		CD7212821D6EE6C20035259C /* GFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212801D6EE6C20035259C /* GFirstViewController.m */; };
+		CD7212831D6EE6C20035259C /* GFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7212811D6EE6C20035259C /* GFirstViewController.xib */; };
+		CD7212871D6EE6D10035259C /* GSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212851D6EE6D10035259C /* GSecondViewController.m */; };
+		CD7212881D6EE6D10035259C /* GSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7212861D6EE6D10035259C /* GSecondViewController.xib */; };
+		CD72128C1D6EE6DD0035259C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72128A1D6EE6DD0035259C /* MyViewController.m */; };
+		CD72128D1D6EE6DD0035259C /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD72128B1D6EE6DD0035259C /* MyViewController.xib */; };
+		CD7212901D6FDD580035259C /* TabbarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72128F1D6FDD580035259C /* TabbarAnimation.m */; };
+		CD7212981D6FE28C0035259C /* GFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212961D6FE28C0035259C /* GFirstCell.m */; };
+		CD7212991D6FE28C0035259C /* GFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7212971D6FE28C0035259C /* GFirstCell.xib */; };
+		CD72129D1D6FE4490035259C /* GNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD72129B1D6FE4490035259C /* GNextViewController.m */; };
+		CD72129E1D6FE4490035259C /* GNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD72129C1D6FE4490035259C /* GNextViewController.xib */; };
+		CD7212A11D6FF0DF0035259C /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212A01D6FF0DF0035259C /* PushAnimation.m */; };
+		CD7212A41D6FF0E90035259C /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7212A31D6FF0E90035259C /* PopAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7212581D6EE0F60035259C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7212361D6EE0F60035259C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD72123D1D6EE0F60035259C;
+			remoteInfo = Guevara;
+		};
+		CD7212631D6EE0F60035259C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7212361D6EE0F60035259C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD72123D1D6EE0F60035259C;
+			remoteInfo = Guevara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD72123E1D6EE0F60035259C /* Guevara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guevara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7212421D6EE0F60035259C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7212441D6EE0F60035259C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD7212451D6EE0F60035259C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD72124D1D6EE0F60035259C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7212521D6EE0F60035259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7212571D6EE0F60035259C /* GuevaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuevaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD72125B1D6EE0F60035259C /* GuevaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuevaraTests.m; sourceTree = "<group>"; };
+		CD72125D1D6EE0F60035259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7212621D6EE0F60035259C /* GuevaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuevaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7212661D6EE0F60035259C /* GuevaraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuevaraUITests.m; sourceTree = "<group>"; };
+		CD7212681D6EE0F60035259C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7212741D6EE11F0035259C /* GTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTabbarViewController.h; sourceTree = "<group>"; };
+		CD7212751D6EE11F0035259C /* GTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTabbarViewController.m; sourceTree = "<group>"; };
+		CD7212761D6EE11F0035259C /* GTabbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTabbarViewController.xib; sourceTree = "<group>"; };
+		CD7212791D6EE5EE0035259C /* MTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTabBarButton.h; path = Guevara/MTTabBarButton.h; sourceTree = "<group>"; };
+		CD72127A1D6EE5EE0035259C /* MTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTabBarButton.m; path = Guevara/MTTabBarButton.m; sourceTree = "<group>"; };
+		CD72127C1D6EE66E0035259C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Guevara/UIColor+Hex.h"; sourceTree = "<group>"; };
+		CD72127D1D6EE66E0035259C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Guevara/UIColor+Hex.m"; sourceTree = "<group>"; };
+		CD72127F1D6EE6C20035259C /* GFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFirstViewController.h; sourceTree = "<group>"; };
+		CD7212801D6EE6C20035259C /* GFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFirstViewController.m; sourceTree = "<group>"; };
+		CD7212811D6EE6C20035259C /* GFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFirstViewController.xib; sourceTree = "<group>"; };
+		CD7212841D6EE6D10035259C /* GSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSecondViewController.h; sourceTree = "<group>"; };
+		CD7212851D6EE6D10035259C /* GSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSecondViewController.m; sourceTree = "<group>"; };
+		CD7212861D6EE6D10035259C /* GSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSecondViewController.xib; sourceTree = "<group>"; };
+		CD7212891D6EE6DD0035259C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CD72128A1D6EE6DD0035259C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CD72128B1D6EE6DD0035259C /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		CD72128E1D6FDD580035259C /* TabbarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarAnimation.h; sourceTree = "<group>"; };
+		CD72128F1D6FDD580035259C /* TabbarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarAnimation.m; sourceTree = "<group>"; };
+		CD7212951D6FE28C0035259C /* GFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFirstCell.h; sourceTree = "<group>"; };
+		CD7212961D6FE28C0035259C /* GFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFirstCell.m; sourceTree = "<group>"; };
+		CD7212971D6FE28C0035259C /* GFirstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFirstCell.xib; sourceTree = "<group>"; };
+		CD72129A1D6FE4490035259C /* GNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNextViewController.h; sourceTree = "<group>"; };
+		CD72129B1D6FE4490035259C /* GNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNextViewController.m; sourceTree = "<group>"; };
+		CD72129C1D6FE4490035259C /* GNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GNextViewController.xib; sourceTree = "<group>"; };
+		CD72129F1D6FF0DF0035259C /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		CD7212A01D6FF0DF0035259C /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		CD7212A21D6FF0E90035259C /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		CD7212A31D6FF0E90035259C /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD72123B1D6EE0F60035259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7212541D6EE0F60035259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD72125F1D6EE0F60035259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7212351D6EE0F60035259C = {
+			isa = PBXGroup;
+			children = (
+				CD7212921D6FE2560035259C /* Tool */,
+				CD7212401D6EE0F60035259C /* Guevara */,
+				CD72125A1D6EE0F60035259C /* GuevaraTests */,
+				CD7212651D6EE0F60035259C /* GuevaraUITests */,
+				CD72123F1D6EE0F60035259C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD72123F1D6EE0F60035259C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD72123E1D6EE0F60035259C /* Guevara.app */,
+				CD7212571D6EE0F60035259C /* GuevaraTests.xctest */,
+				CD7212621D6EE0F60035259C /* GuevaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7212401D6EE0F60035259C /* Guevara */ = {
+			isa = PBXGroup;
+			children = (
+				CD7212941D6FE2720035259C /* Controller */,
+				CD7212931D6FE2610035259C /* Model */,
+				CD7212911D6FE2520035259C /* View */,
+				CD7212441D6EE0F60035259C /* AppDelegate.h */,
+				CD7212451D6EE0F60035259C /* AppDelegate.m */,
+				CD72124D1D6EE0F60035259C /* Assets.xcassets */,
+				CD7212521D6EE0F60035259C /* Info.plist */,
+				CD7212411D6EE0F60035259C /* Supporting Files */,
+			);
+			path = Guevara;
+			sourceTree = "<group>";
+		};
+		CD7212411D6EE0F60035259C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7212421D6EE0F60035259C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD72125A1D6EE0F60035259C /* GuevaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD72125B1D6EE0F60035259C /* GuevaraTests.m */,
+				CD72125D1D6EE0F60035259C /* Info.plist */,
+			);
+			path = GuevaraTests;
+			sourceTree = "<group>";
+		};
+		CD7212651D6EE0F60035259C /* GuevaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7212661D6EE0F60035259C /* GuevaraUITests.m */,
+				CD7212681D6EE0F60035259C /* Info.plist */,
+			);
+			path = GuevaraUITests;
+			sourceTree = "<group>";
+		};
+		CD7212911D6FE2520035259C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD7212951D6FE28C0035259C /* GFirstCell.h */,
+				CD7212961D6FE28C0035259C /* GFirstCell.m */,
+				CD7212971D6FE28C0035259C /* GFirstCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CD7212921D6FE2560035259C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CD72127C1D6EE66E0035259C /* UIColor+Hex.h */,
+				CD72127D1D6EE66E0035259C /* UIColor+Hex.m */,
+				CD7212791D6EE5EE0035259C /* MTTabBarButton.h */,
+				CD72127A1D6EE5EE0035259C /* MTTabBarButton.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		CD7212931D6FE2610035259C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD72128E1D6FDD580035259C /* TabbarAnimation.h */,
+				CD72128F1D6FDD580035259C /* TabbarAnimation.m */,
+				CD72129F1D6FF0DF0035259C /* PushAnimation.h */,
+				CD7212A01D6FF0DF0035259C /* PushAnimation.m */,
+				CD7212A21D6FF0E90035259C /* PopAnimation.h */,
+				CD7212A31D6FF0E90035259C /* PopAnimation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD7212941D6FE2720035259C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD7212741D6EE11F0035259C /* GTabbarViewController.h */,
+				CD7212751D6EE11F0035259C /* GTabbarViewController.m */,
+				CD7212761D6EE11F0035259C /* GTabbarViewController.xib */,
+				CD72127F1D6EE6C20035259C /* GFirstViewController.h */,
+				CD7212801D6EE6C20035259C /* GFirstViewController.m */,
+				CD7212811D6EE6C20035259C /* GFirstViewController.xib */,
+				CD72129A1D6FE4490035259C /* GNextViewController.h */,
+				CD72129B1D6FE4490035259C /* GNextViewController.m */,
+				CD72129C1D6FE4490035259C /* GNextViewController.xib */,
+				CD7212841D6EE6D10035259C /* GSecondViewController.h */,
+				CD7212851D6EE6D10035259C /* GSecondViewController.m */,
+				CD7212861D6EE6D10035259C /* GSecondViewController.xib */,
+				CD7212891D6EE6DD0035259C /* MyViewController.h */,
+				CD72128A1D6EE6DD0035259C /* MyViewController.m */,
+				CD72128B1D6EE6DD0035259C /* MyViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD72123D1D6EE0F60035259C /* Guevara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD72126B1D6EE0F60035259C /* Build configuration list for PBXNativeTarget "Guevara" */;
+			buildPhases = (
+				CD72123A1D6EE0F60035259C /* Sources */,
+				CD72123B1D6EE0F60035259C /* Frameworks */,
+				CD72123C1D6EE0F60035259C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guevara;
+			productName = Guevara;
+			productReference = CD72123E1D6EE0F60035259C /* Guevara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7212561D6EE0F60035259C /* GuevaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD72126E1D6EE0F60035259C /* Build configuration list for PBXNativeTarget "GuevaraTests" */;
+			buildPhases = (
+				CD7212531D6EE0F60035259C /* Sources */,
+				CD7212541D6EE0F60035259C /* Frameworks */,
+				CD7212551D6EE0F60035259C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7212591D6EE0F60035259C /* PBXTargetDependency */,
+			);
+			name = GuevaraTests;
+			productName = GuevaraTests;
+			productReference = CD7212571D6EE0F60035259C /* GuevaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD7212611D6EE0F60035259C /* GuevaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7212711D6EE0F60035259C /* Build configuration list for PBXNativeTarget "GuevaraUITests" */;
+			buildPhases = (
+				CD72125E1D6EE0F60035259C /* Sources */,
+				CD72125F1D6EE0F60035259C /* Frameworks */,
+				CD7212601D6EE0F60035259C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7212641D6EE0F60035259C /* PBXTargetDependency */,
+			);
+			name = GuevaraUITests;
+			productName = GuevaraUITests;
+			productReference = CD7212621D6EE0F60035259C /* GuevaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7212361D6EE0F60035259C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dahl.chen;
+				TargetAttributes = {
+					CD72123D1D6EE0F60035259C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CD7212561D6EE0F60035259C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD72123D1D6EE0F60035259C;
+					};
+					CD7212611D6EE0F60035259C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD72123D1D6EE0F60035259C;
+					};
+				};
+			};
+			buildConfigurationList = CD7212391D6EE0F60035259C /* Build configuration list for PBXProject "Guevara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7212351D6EE0F60035259C;
+			productRefGroup = CD72123F1D6EE0F60035259C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD72123D1D6EE0F60035259C /* Guevara */,
+				CD7212561D6EE0F60035259C /* GuevaraTests */,
+				CD7212611D6EE0F60035259C /* GuevaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD72123C1D6EE0F60035259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7212881D6EE6D10035259C /* GSecondViewController.xib in Resources */,
+				CD7212831D6EE6C20035259C /* GFirstViewController.xib in Resources */,
+				CD7212781D6EE11F0035259C /* GTabbarViewController.xib in Resources */,
+				CD72129E1D6FE4490035259C /* GNextViewController.xib in Resources */,
+				CD72124E1D6EE0F60035259C /* Assets.xcassets in Resources */,
+				CD7212991D6FE28C0035259C /* GFirstCell.xib in Resources */,
+				CD72128D1D6EE6DD0035259C /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7212551D6EE0F60035259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7212601D6EE0F60035259C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD72123A1D6EE0F60035259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD72127B1D6EE5EE0035259C /* MTTabBarButton.m in Sources */,
+				CD72127E1D6EE66E0035259C /* UIColor+Hex.m in Sources */,
+				CD7212A11D6FF0DF0035259C /* PushAnimation.m in Sources */,
+				CD72128C1D6EE6DD0035259C /* MyViewController.m in Sources */,
+				CD7212461D6EE0F60035259C /* AppDelegate.m in Sources */,
+				CD7212771D6EE11F0035259C /* GTabbarViewController.m in Sources */,
+				CD72129D1D6FE4490035259C /* GNextViewController.m in Sources */,
+				CD7212A41D6FF0E90035259C /* PopAnimation.m in Sources */,
+				CD7212901D6FDD580035259C /* TabbarAnimation.m in Sources */,
+				CD7212981D6FE28C0035259C /* GFirstCell.m in Sources */,
+				CD7212431D6EE0F60035259C /* main.m in Sources */,
+				CD7212871D6EE6D10035259C /* GSecondViewController.m in Sources */,
+				CD7212821D6EE6C20035259C /* GFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7212531D6EE0F60035259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD72125C1D6EE0F60035259C /* GuevaraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD72125E1D6EE0F60035259C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7212671D6EE0F60035259C /* GuevaraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7212591D6EE0F60035259C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD72123D1D6EE0F60035259C /* Guevara */;
+			targetProxy = CD7212581D6EE0F60035259C /* PBXContainerItemProxy */;
+		};
+		CD7212641D6EE0F60035259C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD72123D1D6EE0F60035259C /* Guevara */;
+			targetProxy = CD7212631D6EE0F60035259C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD7212691D6EE0F60035259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD72126A1D6EE0F60035259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD72126C1D6EE0F60035259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Guevara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tinstone.Guevara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD72126D1D6EE0F60035259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Guevara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tinstone.Guevara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD72126F1D6EE0F60035259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuevaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tinstone.GuevaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guevara.app/Guevara";
+			};
+			name = Debug;
+		};
+		CD7212701D6EE0F60035259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuevaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tinstone.GuevaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guevara.app/Guevara";
+			};
+			name = Release;
+		};
+		CD7212721D6EE0F60035259C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuevaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tinstone.GuevaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Guevara;
+			};
+			name = Debug;
+		};
+		CD7212731D6EE0F60035259C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuevaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tinstone.GuevaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Guevara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7212391D6EE0F60035259C /* Build configuration list for PBXProject "Guevara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7212691D6EE0F60035259C /* Debug */,
+				CD72126A1D6EE0F60035259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD72126B1D6EE0F60035259C /* Build configuration list for PBXNativeTarget "Guevara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD72126C1D6EE0F60035259C /* Debug */,
+				CD72126D1D6EE0F60035259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD72126E1D6EE0F60035259C /* Build configuration list for PBXNativeTarget "GuevaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD72126F1D6EE0F60035259C /* Debug */,
+				CD7212701D6EE0F60035259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD7212711D6EE0F60035259C /* Build configuration list for PBXNativeTarget "GuevaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7212721D6EE0F60035259C /* Debug */,
+				CD7212731D6EE0F60035259C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7212361D6EE0F60035259C /* Project object */;
+}
